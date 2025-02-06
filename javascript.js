@@ -34,6 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
   
+document.addEventListener("submit", function (event) {
+ 
+    document.getElementById("myForm").reset();
+  });
 
 
 function validate(){
